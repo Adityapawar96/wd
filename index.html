@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aditya's Assignments</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e6f0ff 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            text-align: center;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2.2rem;
+            background: linear-gradient(to right, #3498db, #2ecc71);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .assignment-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .assignment-item {
+            margin-bottom: 15px;
+            padding: 15px 25px;
+            background: rgba(255,255,255,0.8);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+            border: 1px solid rgba(74, 111, 165, 0.2);
+        }
+        .assignment-item:hover {
+            background: rgba(233, 236, 239, 0.9);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            border-color: rgba(74, 111, 165, 0.4);
+        }
+        .assignment-link {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+        .assignment-link:hover {
+            color: #3498db;
+        }
+        .assignment-item:nth-child(odd) {
+            background: rgba(248, 249, 250, 0.9);
+        }
+        .assignment-item:nth-child(even) {
+            background: rgba(240, 248, 255, 0.9);
+        }
+        .css-examples {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0 30px;
+        }
+        .css-btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .inline-btn {
+            background: linear-gradient(135deg, #FF6B6B, #FF8E53);
+            color: white;
+        }
+        .internal-btn {
+            background: linear-gradient(135deg, #4CAF50, #45B649);
+            color: white;
+        }
+        .external-btn {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+        }
+        .css-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Assignments</h1>
+        <div class="css-examples">
+            <a href="inline.html" class="css-btn inline-btn">Inline CSS</a>
+            <a href="internal.html" class="css-btn internal-btn">Internal CSS</a>
+            <a href="external.html" class="css-btn external-btn">External CSS</a>
+        </div>
+        <ul class="assignment-list">
+            <li class="assignment-item">
+                <a href="ass1.html" class="assignment-link">ASSIGNMENT 2:Static Page</a>
+            </li>
+            <li class="assignment-item">
+                <a href="ass3.html" class="assignment-link">ASSIGNMENT 3:Text Formatting</a>
+            </li>
+            <li class="assignment-item">
+                <a href="ass4.html" class="assignment-link">ASSIGNMENT 4:HTML Lists</a>
+            </li>
+            <li class="assignment-item">
+                <a href="ass5.html" class="assignment-link">ASSIGNMENT 5:Image tags</a>
+            </li>
+            <li class="assignment-item">
+                <a href="ass6.html" class="assignment-link">ASSIGNMENT 6:Iframe</a>
+            </li>
+            <li class="assignment-item">
+                <a href="ass7.html" class="assignment-link">ASSIGNMENT 7:Link Tags</a>
+            </li>
+            <li class="assignment-item">
+                <a href="ass8.html" class="assignment-link">ASSIGNMENT 8:Timetable</a>
+            </li>
+            <li class="assignment-item">
+                <a href="Assignment 9.html" class="assignment-link">ASSIGNMENT 9:Employee Form</a>
+            </li>
+            <li class="assignment-item">
+                <a href="Assignment 10.html" class="assignment-link">ASSIGNMENT 10:Professional Resume</a>
+            </li>
+            <li class="assignment-item">
+                <a href="Assignment 11.xml" class="assignment-link">ASSIGNMENT 11:Student Data (XML)</a>
+            </li>
+            <li class="assignment-item">
+                <a href="Assignment 12.html" class="assignment-link">ASSIGNMENT 12:Plant Price List</a>
+            </li>
+            <!-- Add more assignments here as you create them -->
+        </ul>
+    </div>
+</body>
+</html>
